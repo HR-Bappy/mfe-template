@@ -1,0 +1,11 @@
+# Ignore node_modules
+**/node_modules
+# Ignore build files (optional)
+**/build
+**/dist
+**/.__mf__temp
+**/.__mf__win
+
+# Ignore other unwanted files (optional)
+.DS_Store
+*.log
