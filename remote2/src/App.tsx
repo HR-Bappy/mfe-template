@@ -4,7 +4,9 @@ export default () => {
 	
 
 	return (
-		<div
+		<div className="container">
+			<div className="row">
+			<div
 			style={{
 				background: 'cyan',
 				boxShadow: '0 0 20px rgba(0, 0, 0, 0.4)',
@@ -35,6 +37,8 @@ export default () => {
 			</div>
 			<div style={{ marginTop: '10px', fontSize: '25px' }}>I'm from the remote app 2</div>
 			<Counter />
+		</div>
+			</div>
 		</div>
 	);
 };

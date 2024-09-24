@@ -22,7 +22,7 @@ export default defineConfig(() => ({
           type: "module",
           name: "remote2",
           entry: "http://localhost:4175/remoteEntry.js",
-          entryGlobalName: "remote",
+          entryGlobalName: "remote2",
           shareScope: "default",
         },
       },

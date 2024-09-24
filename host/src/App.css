@@ -1,25 +1,181 @@
-.host .card {
-  background: #3178c6;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
-  margin: 20px 20px 20px 20px;
-  width: 250px;
-  padding: 20px;
+
+html,
+body {
+    height: 100%;
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 85%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 50%;
+    }
+}
+
+
+.sectiona { 
+  background: url(http://coolblackppt.com/wp-content/uploads/2013/08/Abstract-dark-textures-floral-floral-texture-fresh-new-hd-wallpaper.jpg);
+  width: 100%;
+  background-attachment: fixed;
+}
+
+
+.sectionb { background: #d0d0d0;    width: 100%;}
+
+
+.facontainer {
+  width: auto;
   text-align: center;
-  color: white;
-  float: left;
+  padding: 20px;
+  position: relative;
 }
 
-.host .title {
-  margin-top: 10px;
-  font-size: 25px;
+
+
+ .facontainer a {color: #000;
+  -webkit-transition: all 0.2s ease; /* Safari compatibility */
+	transition: all 0.2s ease; /* not recognised in IE9 and below */}
+.facontainer a:hover {color: #87d0b0;
+  	-webkit-transition: all 0.2s ease; /* Safari compatibility */
+	transition: all 0.2s ease; /* not recognised in IE9 and below */}
+
+.facontainer h2 {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 26px;
+    line-height: 60px;
+    font-size: 56px;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+    color: #000;
+   font-family: "Roboto",sans-serif;
 }
 
-.host svg {
-  width: 100px;
-  height: 100px;
+.facontainer p {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 24px;
+   font: 14px/24px "Roboto",sans-serif;
 }
 
-.host path {
-  fill: #f6b352;
+.facontainer i {
+    background: #45906F;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
+}
+
+.facontainer li {
+  color: #000;
+  display: inline-block;
+  font-size: 60px;
+}
+
+.facontainer li:hover { 
+  color: #006237;
+}
+
+
+#owl-demo {background:#fff;}
+
+    #owl-demo .item{
+    display: block;
+    padding: 54px 0px;
+    margin: 5px;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    }
+    #owl-demo .left{
+    text-align: left;
+    margin-bottom: 10px;
+    }
+    #owl-demo .left .btn {
+    display: block;
+    }
+#owl-demo h2 {
+font: 600 24px/28px "Open Sans",sans-serif;
+color: #99BF38;
+}
+
+#owl-demo p {
+  font: italic 300 24px/28px "Open Sans",sans-serif;
+  color: #2B3A42;
 }

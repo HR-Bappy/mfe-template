@@ -13,13 +13,6 @@ export default defineConfig(({ mode }) => {
 			target: 'chrome89',
 		},
 		plugins: [
-			// {
-			// 	name: 'generate-environment',
-			// 	options: function () {
-			// 		console.info('selfEnv', selfEnv);
-			// 		writeFileSync('./src/environment.ts', `export default ${JSON.stringify(selfEnv, null, 2)};`);
-			// 	},
-			// },
 			federation({
 				filename: 'remoteEntry.js',
 				name: 'remote',
