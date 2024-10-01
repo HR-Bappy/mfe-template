@@ -35,7 +35,7 @@ export default () => {
 					/>
 				</svg>
 			</div>
-			<div style={{ marginTop: '10px', fontSize: '25px' }}>I'm from the remote app 2</div>
+			<div style={{ marginTop: '10px', fontSize: '25px' }}>I'm from remote app 2 <br />export HTML to DOC</div>
 			<Counter />
 		</div>
 			</div>
